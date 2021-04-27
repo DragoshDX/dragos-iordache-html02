@@ -1,0 +1,13 @@
+body div a span:first-child {
+  color: red;
+}
+body div a span:last-child {
+  color: blue;
+}
+body div .badge {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+/*# sourceMappingURL=style.css.map */
