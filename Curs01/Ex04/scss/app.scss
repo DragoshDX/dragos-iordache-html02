@@ -1,21 +1,13 @@
 body {
-  div {
-    a {
-      span {
-        &:first-child {
-          color: red;
-        }
+  a {
+    color: red;
+  }
 
-        &:last-child {
-          color: blue;
-        }
-      }
-    }
+  span {
+    color: blue;
+  }
 
-    .badge {
-      position: absolute;
-      top: 15px;
-      right: 15px;
-    }
+  h1 {
+    color: red;
   }
 }
