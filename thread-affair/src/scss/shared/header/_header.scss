@@ -30,4 +30,14 @@
       color: $black;
     }
   }
+
+  .header-logo {
+    display: block;
+    width: 120px;
+    margin: -70px auto 0 auto;
+
+    img {
+      width: 100%;
+    }
+  }
 }
