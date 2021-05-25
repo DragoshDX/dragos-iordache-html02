@@ -19,6 +19,13 @@
     font-weight: 300;
   }
 
+  // .button.button-large
+  .button {
+    &.button-large {
+      margin: 45px 0;
+    }
+  }
+
   .banner-copy {
     width: 210px;
     font-weight: 300;
