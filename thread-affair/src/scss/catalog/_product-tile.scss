@@ -16,7 +16,7 @@
   }
 
   .product-title {
-    font-size: 24px;
+    font-size: 24px !important;
     margin-bottom: 0;
 
     a {
@@ -58,6 +58,10 @@
 
   .product-tile-image-container {
     position: relative;
+
+    img {
+      width: 100%;
+    }
   }
 
   .product-tile-badge {

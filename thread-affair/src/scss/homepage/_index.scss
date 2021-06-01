@@ -9,24 +9,22 @@
   .content-main {
     margin-top: 60px;
 
-    .catalog-preview {
-      & > header {
-        text-align: center;
+    header {
+      text-align: center;
 
-        h1 {
-          color: $brand-primary;
-          font-weight: 300;
-          text-transform: capitalize;
-          font-size: 35px;
+      h1 {
+        color: $brand-primary;
+        font-weight: 300;
+        text-transform: capitalize;
+        font-size: 35px;
 
-          @include media-breakpoint-up('md') {
-            font-size: 30px;
-            color: $black;
-          }
+        @include media-breakpoint-up('md') {
+          font-size: 30px;
+          color: $black;
+        }
 
-          span {
-            font-weight: 400;
-          }
+        span {
+          font-weight: 400;
         }
       }
     }
