@@ -2,6 +2,10 @@
   text-align: center;
   margin-bottom: 80px;
 
+  @include media-breakpoint-up('md') {
+    width: 27.386541%;
+  }
+
   .product-tile-header {
     margin-top: 16px;
 

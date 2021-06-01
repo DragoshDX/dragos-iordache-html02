@@ -93,7 +93,7 @@ module.exports = (_, argv) => {
       devtool: 'source-map',
     },
     devServer({
-      port: process.env.PORT || 8080,
+      port: process.env.PORT || 8000,
     }),
     loadCss(),
     loadImages({
