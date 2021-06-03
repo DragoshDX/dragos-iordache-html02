@@ -14,6 +14,7 @@
 
     @include media-breakpoint-up('md') {
       flex-direction: row;
+      justify-content: space-between;
     }
 
     // label[for="email"] span
@@ -32,7 +33,6 @@
 
     // alternativa
     input[type='email'] {
-      // width: 32.52351%;
       width: 75%;
       background-color: transparent;
       border: none;
@@ -46,6 +46,10 @@
 
       &::placeholder {
         color: $gray-secondary;
+      }
+
+      @include media-breakpoint-up('md') {
+        width: 32.52351%;
       }
     }
 
